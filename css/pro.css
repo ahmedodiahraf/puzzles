@@ -1,0 +1,116 @@
+
+
+body {
+     margin: 0;
+     padding: 0;
+
+}
+
+.red {
+     position: relative;
+     top: 10px;
+     left: calc(50% - 100px);
+     height: 40px;
+     width: 200px;
+
+}
+
+.loser {
+     padding-top: 20px;
+     width: 60%;
+     height: 450px;
+     transition: .1s;
+     background: url(../Pics/nulgath\ Butt.PNG);
+     background-position: center;
+     background-size: contain;
+     background-repeat: no-repeat;
+     display: none;
+     justify-content: center;
+     align-items: center;
+     position: absolute;
+     left: 20%;
+     text-decoration: none;
+     opacity: 0;
+     transition: .2s;
+
+     p {
+          font-size: 70px;
+          color: white;
+          text-transform: uppercase;
+     }
+
+}
+
+.main {
+     margin: auto;
+     padding-top: 20px;
+     width: 70%;
+     height: 450px;
+     background: grey;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-evenly;
+     flex-wrap: wrap;
+     z-index: 13;
+
+}
+
+.container {
+     width: 12%;
+     height: 10%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     transition: 0.3;
+}
+
+.btn {
+     width: 93%;
+     height: 93%;
+     background: rgb(0, 0, 0 , 0.2);
+     backdrop-filter: blur(13px);
+     text-align: center;
+     font-size: 35px;
+
+     span {
+          color: white;
+          text-shadow: 0 0 10px white;
+          opacity: 0;
+          transition: .3s;
+          cursor: pointer;
+          padding: 20px 20px 20px 20px;
+          background-color: aliceblue;
+     }
+
+}
+
+.checked {
+     width: 93%;
+     height: 93%;
+     text-align: center;
+     font-size: 40px;
+     background: rgb(0, 0, 0 , 0.2);
+
+     span {
+          color: white;
+          text-shadow: 0 0 10px white;
+          opacity: 1;
+          transition: .3s;
+     }
+}
+
+.done {
+     background: rgb(0, 0, 0 , 0.2);
+     width: 93%;
+     height: 93%;
+     text-align: center;
+     font-size: 40px;
+
+     span {
+          color: white;
+          text-shadow: 0 0 10px white;
+          opacity: 1;
+          transition: .3s;
+     }
+
+}
